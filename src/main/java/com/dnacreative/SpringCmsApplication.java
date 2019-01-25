@@ -7,15 +7,15 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 
 @SpringBootApplication
-public class SpringCms1Application extends SpringBootServletInitializer {
+public class SpringCmsApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringCms1Application.class, args);
+		SpringApplication.run(SpringCmsApplication.class, args);
 	}
 	
 	@Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(SpringCms1Application.class);
+        return application.sources(SpringCmsApplication.class);
     }
 	
 	/*

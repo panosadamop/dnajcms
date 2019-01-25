@@ -17,7 +17,7 @@ import com.dnacreative.config.PersistenceJPAConfigForTest;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
-@ContextConfiguration(classes = {SpringCms1Application.class, PersistenceJPAConfigForTest.class})
+@ContextConfiguration(classes = {SpringCmsApplication.class, PersistenceJPAConfigForTest.class})
 @TestPropertySource(locations="classpath:application-test.properties")
 @ActiveProfiles("test")
 public abstract class BaseIntegrationTest {
